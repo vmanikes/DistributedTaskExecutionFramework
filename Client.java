@@ -33,7 +33,7 @@ public class Client {
 			throw new AmazonClientException(
 					"Cannot load the credentials from the credential profiles file. " +
 							"Please make sure that your credentials file is at the correct " +
-							"location (C:\\Users\\VENKATASIVANAGASAISU\\.aws\\credentials), and is in valid format.",
+							"location, and is in valid format.",
 							e);
 		}
 		
